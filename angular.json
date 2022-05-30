@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FE0122A-progetto-settimana12-correct": {
+    "FE0222A-Progetto-Settimana-12": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fe0122-a-progetto-settimana12-correct",
+            "outputPath": "dist/fe0222-a-progetto-settimana-12",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -31,6 +31,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -72,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "FE0122A-progetto-settimana12-correct:build:production"
+              "browserTarget": "FE0222A-Progetto-Settimana-12:build:production"
             },
             "development": {
-              "browserTarget": "FE0122A-progetto-settimana12-correct:build:development"
+              "browserTarget": "FE0222A-Progetto-Settimana-12:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FE0122A-progetto-settimana12-correct:build"
+            "browserTarget": "FE0222A-Progetto-Settimana-12:build"
           }
         },
         "test": {
@@ -99,6 +100,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -107,5 +109,5 @@
       }
     }
   },
-  "defaultProject": "FE0122A-progetto-settimana12-correct"
+  "defaultProject": "FE0222A-Progetto-Settimana-12"
 }

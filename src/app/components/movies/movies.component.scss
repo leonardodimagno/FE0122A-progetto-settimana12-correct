@@ -1,0 +1,19 @@
+img {
+  height: 300px;
+  width: 200px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+  background: repeating-linear-gradient(rgb(0, 0, 0), rgb(156, 8, 8) 10%, rgb(0, 0, 0) 20%);
+}
+mat-card {
+  margin: 1em;
+  border-radius: 0;
+
+}
+img:hover {
+  transform: scale(1.1);
+}
