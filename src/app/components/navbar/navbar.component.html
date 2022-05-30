@@ -10,7 +10,7 @@
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <mat-toolbar style="background-color: rgb(165, 21, 21) ;"><p *ngIf="user$|async as user">Benvenuto, {{user.user.name}}!</p></mat-toolbar>
+    <mat-toolbar style="background-image: linear-gradient( 106.9deg,  rgba(148,14,60,1) 60.9%, rgba(3,22,27,1) 122.3% );"><p *ngIf="user$|async as user">Benvenuto, {{user.user.name}}!</p></mat-toolbar>
     <ng-content ></ng-content>
   </mat-sidenav-content>
 </mat-sidenav-container>
